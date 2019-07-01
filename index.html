@@ -276,18 +276,31 @@
     <section class="feedback">
         <div class="feedback-inner">
             <div class="feedback-info">
-                <h2>GET IN TOUCH</h2>
+                <h2>Get in touch</h2>
                 <p>
                     1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
                 </p>
-            </div>
-            <p>Your Name</p>
-            <p>Your Email</p>
-            <p>Your message</p>
-            <a href="#" class="head-button message">
-                SEND MESSAGE
-            </a>
-        </div>
+            
+    <form action="action_page.php" class="feedback-form">
+            <ul>
+                <li class="col-half">
+                    <label for="yourname">Your Name</label>
+                    <input type="text" placeholder="Your Name" name="name" id="yourname" required />
+                </li>
+                <li class="col-half">
+                    <label for="email">Your Email</label>
+                    <input type="text" placeholder="Enter your Email" name="email" id="email" required />
+                </li>
+                <li class="comment">
+                    <label for="message" class="message-text">Your Message</label>
+                        <textarea name="message" placeholder="Enter Your Message" id="message"></textarea>
+                </li>
+                <li>  
+                    <label>Submit</label>
+                    <input type="button" class="head-button message" value="Send Message"/>
+                </li>
+            </ul>
+    </form>
     </section>
     <footer>
         <ul>

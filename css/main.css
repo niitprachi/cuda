@@ -54,7 +54,8 @@ header {
 
 .message {
     background-color: #30bae7;
-    border-bottom-color: #30bae7;
+    border-bottom-color: #299ec5;
+    border-width: 0 0 4px 0;
 }
 
 .menu-list ul {
@@ -530,7 +531,90 @@ header {
     padding-top: 24px;
     text-align: center;
     font-size: 18px;
+    padding-bottom: 82px;
 }
+
+/*************************
+    form style  
+ ************************/
+/* .form-list {
+    width: 860px;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin: auto;
+} */
+
+.feedback-form {
+    width: 860px;
+    margin: 0 auto;
+}
+
+.feedback-form ul {
+    padding: 0;
+}
+
+.feedback-form li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.feedback-form .col-half {
+    float: left;
+    width: 50%;
+}
+
+.feedback-form label {
+    position: absolute;
+    left: -999px;
+    top: -999px;
+} 
+
+/* .comment {
+    background-color: #273a71;
+    width: 860px;
+    margin-top: 30px;
+    text-align: left;
+    padding: 10px;
+} */
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ffffff;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #ffffff;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #ffffff;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;
+  }
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    background-color: #273a71;
+    border: 0;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    height: 200px;
+    background-color: #273a71;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/*************************
+    footer 
+ ************************/
 
 footer {
     text-align: center;
@@ -554,3 +638,4 @@ footer a {
 footer a:hover {
     color: #30bae7;
 }
+
