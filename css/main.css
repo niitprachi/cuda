@@ -93,6 +93,7 @@ header {
     width: 600px;
     margin: 0 auto;
 }
+
 .section-info h2 {
     padding-bottom: 22px;
     position: relative;
@@ -109,7 +110,7 @@ header {
     background-color: #14a58c;
     position: absolute;
     left: 50%;
-    margin-left: -44px; 
+    margin-left: -44px;  /*half of width: */
     bottom: 0;
 }
 
@@ -149,6 +150,11 @@ header {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.service-list a {
+    display: block;
+}
+
 .service-list p {
     margin-top: 62px;
 }
@@ -218,6 +224,7 @@ header {
 
 .team-list a {
     text-decoration: none;
+    display: block;
 }
 
 .team-list::after {
@@ -385,10 +392,12 @@ header {
     padding-top: 13px;
     padding-bottom: 13px;
     color: #393939;
+    border-radius: 6px;
 }
 
 .portfolio-list a:hover h4 {
     background-color: #ffffff;
+
 }
 
 .portfolio-image {
